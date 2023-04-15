@@ -1,0 +1,1 @@
+alert("Chesta kor, sob somoy e thik hoe jabe");

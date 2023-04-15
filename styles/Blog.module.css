@@ -1,0 +1,40 @@
+.blogitem h3 {
+  padding: 0.25rem 0;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.blogitem p {
+  padding: 0.25rem 0;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.blogitem{
+  margin: 2.5rem 0;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 4rem;
+  flex: 1;
+  min-height: 100vh;
+}
+
+.blog{
+  width: 50vw;
+}
+
+@media only screen and (min-width: 100px) and (max-width: 1300px) {
+  .main {
+    padding: 0 2.5rem;
+  }
+  .blog{
+    width: 90vw;
+    padding: 1rem;
+  }
+}
